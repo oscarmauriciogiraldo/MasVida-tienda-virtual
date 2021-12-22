@@ -29,3 +29,9 @@ Tienda virtual mas vida Angula
     git push //subir del repositorio local al repositorio remoto, es decir el repositorio remoto que se cree sea en github o gitlab
     
     git pull //traer los cambios hechos por algun miembro del euipo
+
+## Configurar Dependencias Iconos - Fuentes ...
+
+   ### Font Awesome
+        Crear cuenta
+        copiar el script del kit
