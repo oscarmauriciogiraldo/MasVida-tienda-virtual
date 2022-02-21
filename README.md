@@ -1,5 +1,7 @@
 # MasVida-tienda-virtual
-Tienda virtual mas vida Angula
+Tienda virtual Mas + Vida
+
+
 
 ## Folder forntviews
     carpeta del forntend: 
