@@ -61,10 +61,162 @@ header{
     /*background: ;*/
     background: #fff;
 }
-/* ******************************** HEADER *************************** */
 
-header .header-1{
+.header-1{
     /*background: #fff;*/
+    /* propiedades nuevas que complementan un poco */
+    max-width: 1200px;
+    margin: auto;
+
+    padding: 1.5rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--black);
+}
+
+.logo i{
+    color: var(--primary-color);
+}
+
+.search-form{
+    width: 50rem;
+    height: 5rem;
+    border: var(--border);
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: .7rem;
+}
+
+.search-form input{
+    font-size: 1.6rem;
+    padding: 0 1.2rem;
+    height: 100%;
+    width: 100%;
+    text-transform: none;
+    color: var(--black);
+}
+
+.search-form label{
+    font-size: 2.5rem;
+    padding-right: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.search-form label:hover{
+    color: var(--primary-color);
+}
+
+header .header-1 .icons div,
+header .header-1 .icons a{
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+
+header .header-1 .icons div:hover,
+header .header-1 .icons a:hover{
+    color: var(--primary-color);
+}
+
+#search-btn{
+    display: none;
+}
+
+/* ************** subseccion header 2 ********* */
+/** barrra de menu **/
+/** container__menu == header-2 **/
+
+/* header container__menu */
+.container__menu{
+    width: 100%;
+    height: 60px;
+    background: var(--primary-color);
+    padding: 0px 20px;
+
+}
+
+/* header container__menu .menu */
+.menu{
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+
+    /* propiedades nuevas que complementan un poco *
+    text-align: center;
+    /* propiedades nuevas que complementan un poco */
+}
+
+/* header container__menu .menu nav  == header .header-2 nav  */
+nav{
+    height: 100%;
+    /*text-align: center; */     
+}
+
+nav > ul {
+    /* nav > ul permite que me valla directamente
+    al ul que sigue despues del nav y no todos los ul despues del nav */
+    height: 100%;
+    display: flex;
+    /* centrar el contenido con flexbox*/
+    justify-content: center;
+    align-items: center; 
+    /*display: inline-block;*/
+}
+    
+nav > ul > li{
+    height: 100%;
+    list-style: none;
+    position: relative;   
+}
+    
+nav > ul > li > a{
+    /**/
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1.4rem;
+    color: #fff;
+
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    transition: all 300ms ease;
+    /* viejas
+    color: #fff;
+    display: inline-block;
+    padding: 1.4rem;
+    font-size: 1.7rem;*/
+    
+    /*otras propiedades*/
+    
+    overflow: hidden;
+    text-decoration: none;
+    /*text-transform: uppercase;
+    transition: .3s;*/
+}
+
+
+
+
+/* ******************************** HEADER ENDS *************************** */
+
+/*
+header .header-1{
+    /*background: #fff;*
+    /* propiedades nuevas que complementan un poco *
+    max-width: 1200px;
+    margin: auto;
+
     padding: 1.5rem 9%;
     display: flex;
     align-items: center;
@@ -127,7 +279,7 @@ header .header-1 .icons a:hover{
 
 #search-btn{
     display: none;
-}
+}*/
 
 /* menu de navegacion */
 /* ****************** */
